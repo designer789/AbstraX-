@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbstraX</title>
+    <link rel="icon" type="image/png" href="uploads/icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Font loading -->
+    <style>
+        @font-face {
+            font-family: 'Nohemi';
+            src: url('fonts/Nohemi.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="uploads/hd.png" alt="Site Logo">
+            </div>
+            <button class="menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#technical">Technical</a>
+                <a href="#why">Why AbstraX</a>
+                <a href="#tokenomics">Tokenomics</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#faq">FAQ</a>
+                <div class="social-links">
+                    <a href="https://x.com/AbstraX_COIN" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://t.me/AbstraX_Official" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+               
+                <h1>Connecting the Multi-Chain World,<br>Simplifying Web3</h1>
+                <div class="hero-buttons">
+                    <button class="cta-button">Documentation</button>
+                    <button class="cta-button buy-now">Buy Now</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="uploads/p1.png" alt="AbstraX Platform">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-content">
+                <div class="about-icon">
+                    <img src="uploads/icon.png" alt="AbstraX Icon" loading="lazy">
+                </div>
+                <h2>One Platform, Endless Chains</h2>
+                <p>AbstraX addresses the growing complexity of Web3—scattered assets, multiple wallets, and Gas fees—by introducing chain abstraction to create a unified, seamless cross-chain platform. We simplify the multi-chain world, hiding blockchain differences to empower users and developers with a single-account experience. Envisioning a "chainless" Web3, AbstraX bridges ecosystems, unlocking blockchain's full potential through streamlined access to assets, applications, and data.</p>
+            </div>
+        </section>
+
+        <section class="carousel features" id="features">
+            <div class="carousel-content">
+                <h2>Unlocking Multi-Chain Convenience</h2>
+                
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <img src="uploads/feature1.png" alt="One Account, All Chains" class="feature-image" loading="lazy">
+                            </div>
+                            <h3>One Account, All Chains</h3>
+                            <p>Manage everything with a single, non-custodial smart wallet. See all your assets—across EVM, non-EVM, and beyond—in one unified view, no network hopping required.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <img src="uploads/feature2.png" alt="Effortless Cross-Chain Actions" class="feature-image" loading="lazy">
+                            </div>
+                            <h3>Effortless Cross-Chain Actions</h3>
+                            <p>Swap tokens, buy NFTs, or interact with dApps across chains in one click. No bridges, no delays—just instant, seamless transactions.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <img src="uploads/feature3.png" alt="Pay Your Way" class="feature-image" loading="lazy">
+                            </div>
+                            <h3>Pay Your Way</h3>
+                            <p>Forget hunting for specific Gas tokens. Use any asset in your wallet to cover fees, making Web3 as flexible as you are.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <img src="uploads/feature4.png" alt="Smart Automation" class="feature-image" loading="lazy">
+                            </div>
+                            <h3>Smart Automation</h3>
+                            <p>Our routing engine finds the fastest, cheapest paths for your cross-chain needs, quietly handling the complexity so you don't have to.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <img src="uploads/feature5.png" alt="Built for Builders" class="feature-image" loading="lazy">
+                            </div>
+                            <h3>Built for Builders</h3>
+                            <p>Developers can tap into our SDK and API to bring chain-agnostic features to their dApps, opening doors to wider audiences with minimal effort.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <img src="uploads/feature6.png" alt="Future-Ready" class="feature-image" loading="lazy">
+                            </div>
+                            <h3>Future-Ready</h3>
+                            <p>From Ethereum to Solana and beyond, AbstraX supports today's top chains and scales with tomorrow's innovations.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-nav">
+                        <button class="prev-btn">←</button>
+                        <div class="carousel-dots"></div>
+                        <button class="next-btn">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel technical-core" id="technical">
+            <div class="carousel-content">
+                <h2>AbstraX's Technical Core</h2>
+                
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <i class="fas fa-wallet"></i>
+                            </div>
+                            <h3>ERC-4337 Smart Wallet</h3>
+                            <p>AbstraX's unmanaged smart wallet is built on the ERC-4337 account abstraction standard, which can unify users' identities and assets across chains. It eliminates the hassle of traditional private keys, enables seamless multi-chain access, and provides higher security and flexibility.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <i class="fas fa-route"></i>
+                            </div>
+                            <h3>Cross-Chain Routing System</h3>
+                            <p>A decentralized protocol that maps optimal paths for asset transfers using real-time data and bridge integrations (e.g., Axelar, Chainlink CCIP). It ensures atomic, secure cross-chain execution with minimal latency.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <i class="fas fa-sync"></i>
+                            </div>
+                            <h3>Liquidity Sync Engine</h3>
+                            <p>Aggregates liquidity from multi-chain sources like Curve and PancakeSwap via smart contract wrappers. It optimizes trades with dynamic routing and low-slippage execution, even across fragmented markets.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <i class="fas fa-gas-pump"></i>
+                            </div>
+                            <h3>Universal Gas Solution</h3>
+                            <p>A relayer-backed system that converts any token into Gas payments through on-chain settlement. It abstracts chain-specific fee requirements, simplifying transactions with off-chain coordination.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <i class="fas fa-link"></i>
+                            </div>
+                            <h3>Chain-Agnostic Interoperability</h3>
+                            <p>A modular framework connecting EVM and non-EVM chains (e.g., Ethereum, Aptos) via cross-chain messaging (like Polkadot's XCMP). It standardizes asset and data flows for broad compatibility.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-nav">
+                        <button class="prev-btn">←</button>
+                        <div class="carousel-dots"></div>
+                        <button class="next-btn">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel why-abstrax" id="why">
+            <div class="carousel-content">
+                <h2>Why AbstraX Shines</h2>
+                
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <h3>Simplicity at Its Core</h3>
+                            <p>Say goodbye to managing multiple wallets, switching networks, or scrambling for Gas tokens. AbstraX streamlines everything into one intuitive platform.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3>Full Control, Zero Compromise</h3>
+                            <p>Your assets and keys stay in your hands with our non-custodial design, keeping you secure and sovereign in a decentralized world.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h3>Fast and Cost-Effective</h3>
+                            <p>Smart routing and liquidity optimization cut transaction times and fees, giving you more value with every move.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <i class="fas fa-expand-arrows-alt"></i>
+                            </div>
+                            <h3>Scales with Web3</h3>
+                            <p>From Ethereum to emerging chains, AbstraX supports today's ecosystems and adapts to tomorrow's, keeping you ahead of the curve.</p>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <div class="card-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h3>Empowers Creativity</h3>
+                            <p>Developers get plug-and-play tools—SDKs and APIs—to build chain-agnostic dApps, reaching users across the multi-chain landscape effortlessly.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-nav">
+                        <button class="prev-btn">←</button>
+                        <div class="carousel-dots"></div>
+                        <button class="next-btn">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tokenomics" id="tokenomics">
+            <div class="tokenomics-content">
+                <div class="tokenomics-header">
+                    <h2>Tokenomics</h2>
+                    <p class="tokenomics-intro">The ATX token powers AbstraX, driving its vision of a unified, frictionless Web3.</p>
+                    
+                    <div class="token-info">
+                        <div class="token-detail">
+                            <span class="label">Token Name:</span>
+                            <span class="value">$ATX</span>
+                        </div>
+                        <div class="token-detail">
+                            <span class="label">Total Supply:</span>
+                            <span class="value">1,000,000,000 $ATX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tokenomics-grid">
+                    <div class="utility-section">
+                        <h3>Utility</h3>
+                        <div class="utility-cards">
+                            <div class="utility-card">
+                                <h4>Transaction Fees</h4>
+                                <p>Use ATX to pay discounted Gas and cross-chain fees, unlocking cost savings for users.</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Governance</h4>
+                                <p>Stake ATX to vote on new chains, features and upgrades – your voice helps guide the direction of AbstraX.</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Participate to profit</h4>
+                                <p>Get rewarded for providing liquidity or participating in platform activities with ATX. Plus, the longer you stay engaged, the bigger your share of ATX airdrops will be – stay active and the ecosystem will keep giving back.</p>
+                            </div>
+                            <div class="utility-card">
+                                <h4>Priority access</h4>
+                                <p>ATX stakers get perks like faster transaction processing and early access to new tools or integrations.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="allocation-section">
+                        <h3>Token Allocation</h3>
+                        <div class="allocation-chart">
+                            <div class="pie-container">
+                                <div class="pie-chart"></div>
+                                <div class="pie-legend">
+                                    <div class="legend-item">
+                                        <span class="legend-color" style="background: rgba(140, 120, 255, 0.9)"></span>
+                                        <span class="legend-label">Liquidity Pools</span>
+                                        <span class="legend-value">60%</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <span class="legend-color" style="background: rgba(140, 120, 255, 0.7)"></span>
+                                        <span class="legend-label">Airdrop & Community</span>
+                                        <span class="legend-value">15%</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <span class="legend-color" style="background: rgba(140, 120, 255, 0.5)"></span>
+                                        <span class="legend-label">Staking Rewards</span>
+                                        <span class="legend-value">10%</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <span class="legend-color" style="background: rgba(140, 120, 255, 0.3)"></span>
+                                        <span class="legend-label">Ecosystem Fund</span>
+                                        <span class="legend-value">10%</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <span class="legend-color" style="background: rgba(140, 120, 255, 0.2)"></span>
+                                        <span class="legend-label">Team & Advisors</span>
+                                        <span class="legend-value">5%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel roadmap" id="roadmap">
+            <div class="carousel-content">
+                <h2>Roadmap</h2>
+                
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="carousel-item phase">
+                            <div class="phase-header" data-phase="1">
+                                <h4>Launch & Foundation</h4>
+                            </div>
+                            <ul class="phase-items">
+                                <li>Deploy the AbstraX smart wallet with ERC-4337 for unified cross-chain accounts.</li>
+                                <li>Enable initial EVM chain support (Ethereum, Arbitrum, Optimism) for asset management.</li>
+                                <li>Release developer SDK for early integrations.</li>
+                                <li>Launch $ATX, our native token, powering fees, staking, and ecosystem rewards.</li>
+                            </ul>
+                        </div>
+
+                        <div class="carousel-item phase">
+                            <div class="phase-header" data-phase="2">
+                                <h4>Core Features</h4>
+                            </div>
+                            <ul class="phase-items">
+                                <li>Introduce Gas abstraction, letting users pay fees with any token, including $ATX discounts.</li>
+                                <li>Activate the cross-chain routing engine for smooth EVM-based transactions.</li>
+                                <li>Begin $ATX staking and governance, giving the community a voice in platform evolution.</li>
+                                <li>Open public beta with initial rewards for testers.</li>
+                            </ul>
+                        </div>
+
+                        <div class="carousel-item phase">
+                            <div class="phase-header" data-phase="3">
+                                <h4>Expansion & Interoperability</h4>
+                            </div>
+                            <ul class="phase-items">
+                                <li>Add support for major non-EVM chains (e.g., Solana, Cosmos) to broaden reach.</li>
+                                <li>Enhance liquidity aggregation with partnerships (e.g., Uniswap, SushiSwap).</li>
+                                <li>Launch the full platform across web, mobile, and Telegram mini-apps.</li>
+                                <li>Kick off $ATX airdrops for active users and contributors.</li>
+                            </ul>
+                        </div>
+
+                        <div class="carousel-item phase">
+                            <div class="phase-header" data-phase="4">
+                                <h4>Scale & Innovate</h4>
+                            </div>
+                            <ul class="phase-items">
+                                <li>Integrate emerging Layer-2s and new blockchains based on community votes.</li>
+                                <li>Upgrade developer tools with advanced cross-chain APIs and templates.</li>
+                                <li>Explore DeFi and NFT use cases to showcase AbstraX's potential.</li>
+                                <li>Solidify AbstraX as a Web3 infrastructure leader through strategic alliances.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-nav">
+                        <button class="prev-btn">←</button>
+                        <div class="carousel-dots"></div>
+                        <button class="next-btn">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq" id="faq">
+            <div class="faq-content">
+                <h2>FAQ</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What is AbstraX?</h3>
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>AbstraX is a platform that simplifies Web3 by uniting multiple blockchains into one seamless experience. With chain abstraction, we let you manage assets, trade, and interact across chains using a single account—no complexity required.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What's the $ATX token for?</h3>
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>$ATX is our native token, powering the ecosystem. Use it for discounted fees, staking to vote on platform decisions, and earning rewards through participation and airdrops.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do I need multiple wallets to use AbstraX?</h3>
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Nope! AbstraX gives you a single smart wallet that works across all supported chains, so you can ditch the juggling act.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Is my money safe with AbstraX?</h3>
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely. AbstraX is non-custodial—your keys and assets stay in your control. We also use top-tier security, like ERC-4337 standards and regular audits, to keep everything safe.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do I pay Gas fees?</h3>
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>With our Gas abstraction, you can use any token in your wallet—including $ATX—to cover fees. No more hunting for chain-specific coins.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Can developers build on AbstraX?</h3>
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! Our SDK and API make it easy to integrate chain-agnostic features into your dApps. Get started with our Developer Docs.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do I earn $ATX airdrops?</h3>
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Stay active—use the platform, provide liquidity, or stake $ATX. The more you engage, the bigger your share of periodic airdrops.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How does AbstraX support new chains?</h3>
+                            <div class="faq-toggle"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Through $ATX governance, the community votes to integrate emerging blockchains, keeping the platform adaptable and future-ready.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="uploads/hd.png" alt="AbstraX Logo" loading="lazy">
+            </div>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#technical">Technical</a>
+                <a href="#why">Why AbstraX</a>
+                <a href="#tokenomics">Tokenomics</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://x.com/AbstraX_COIN" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://t.me/AbstraX_Official" class="social-icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AbstraX. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", (event) => {
+            // Initialize GSAP
+            gsap.registerPlugin(ScrollTrigger);
+            
+            // Add attributes to the text element
+            document.querySelector('.about p').setAttribute('text-split', '');
+            document.querySelector('.about p').setAttribute('scrub-each-word', '');
+            
+            // Split text into spans
+            let typeSplit = new SplitType("[text-split]", {
+                types: "words, chars",
+                tagName: "span"
+            });
+
+            // Create the scroll-triggered animation
+            document.querySelectorAll("[scrub-each-word]").forEach(element => {
+                let tl = gsap.timeline({
+                    scrollTrigger: {
+                        trigger: element,
+                        start: "top 80%",
+                        end: "top 40%",
+                        scrub: 1.5,  // Increased scrub value for smoother animation
+                        toggleActions: "play none none reverse"
+                    }
+                });
+                
+                tl.from(element.querySelectorAll(".word"), {
+                    opacity: 0.1,    // More subtle opacity change
+                    y: 20,          // Added slight vertical movement
+                    duration: 0.8,   // Longer duration
+                    ease: "power2.out",
+                    stagger: {
+                        each: 0.1,   // Reduced stagger time
+                        ease: "power1.inOut"  // Smoother stagger easing
+                    }
+                });
+            });
+
+            // Avoid flash of unstyled content
+            gsap.set("[text-split]", { opacity: 1 });
+        });
+    </script>
+
+    <script>
+        // Initialize Carousel
+        function initializeCarousel(selector) {
+            // Get DOM elements
+            const container = document.querySelector(selector);
+            const track = container.querySelector('.carousel-track');
+            const items = container.querySelectorAll('.carousel-item');
+            const prevBtn = container.querySelector('.prev-btn');
+            const nextBtn = container.querySelector('.next-btn');
+            const dotsContainer = container.querySelector('.carousel-dots');
+
+            // Initialize variables
+            let currentIndex = 0;
+            let startX = 0;
+            let currentTranslateX = 0;
+            let prevTranslateX = 0;
+            let isDragging = false;
+            let animationId = null;
+            let currentX = 0;
+            let lastX = 0;
+            let velocity = 0;
+            
+            // Calculate items per view based on screen width
+            const itemsPerView = window.innerWidth > 1200 ? 3 : window.innerWidth > 768 ? 2 : 1;
+            const maxIndex = Math.max(0, items.length - itemsPerView);
+
+            // Create navigation dots
+            for (let i = 0; i <= maxIndex; i++) {
+                const dot = document.createElement('div');
+                dot.classList.add('dot');
+                if (i === 0) dot.classList.add('active');
+                dot.addEventListener('click', () => goToSlide(i));
+                dotsContainer.appendChild(dot);
+            }
+
+            // Update navigation dots
+            function updateDots() {
+                const dots = dotsContainer.querySelectorAll('.dot');
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentIndex);
+                });
+            }
+
+            // Set transform position
+            function setTransform(x) {
+                currentTranslateX = x;
+                track.style.transform = `translateX(${x}%)`;
+            }
+
+            // Go to specific slide
+            function goToSlide(index, smooth = true) {
+                currentIndex = Math.min(Math.max(0, index), maxIndex);
+                const targetX = -(currentIndex * (100 / itemsPerView));
+                
+                if (smooth) {
+                    track.style.transition = 'transform 0.25s ease-out';
+                    requestAnimationFrame(() => {
+                        setTransform(targetX);
+                    });
+                    setTimeout(() => {
+                        track.style.transition = '';
+                    }, 250);
+                } else {
+                    setTransform(targetX);
+                }
+                
+                prevTranslateX = targetX;
+                updateDots();
+            }
+
+            // Event handlers
+            function onDragStart(event) {
+                if (animationId) {
+                    cancelAnimationFrame(animationId);
+                }
+                isDragging = true;
+                startX = event.type === 'mousedown' ? event.clientX : event.touches[0].clientX;
+                lastX = startX;
+                currentX = startX;
+                track.style.transition = '';
+            }
+
+            function onDragMove(event) {
+                if (!isDragging) return;
+                event.preventDefault();
+                
+                currentX = event.type === 'mousemove' ? event.clientX : event.touches[0].clientX;
+                const deltaX = currentX - startX;
+                const movePercentage = (deltaX / track.offsetWidth) * 100 * 1.8;
+                
+                // Calculate velocity
+                velocity = (currentX - lastX) / 16;
+                lastX = currentX;
+
+                let newTranslateX = prevTranslateX + movePercentage;
+                
+                // Add edge resistance
+                if (newTranslateX > 0) {
+                    newTranslateX *= 0.5;
+                } else if (newTranslateX < -(maxIndex * 100 / itemsPerView)) {
+                    const overscroll = newTranslateX + (maxIndex * 100 / itemsPerView);
+                    newTranslateX = -(maxIndex * 100 / itemsPerView) + overscroll * 0.5;
+                }
+                
+                setTransform(newTranslateX);
+            }
+
+            function onDragEnd() {
+                if (!isDragging) return;
+                isDragging = false;
+
+                // Use velocity to determine slide direction
+                const threshold = 0.3;
+                let targetIndex = currentIndex;
+                
+                if (Math.abs(velocity) > threshold) {
+                    targetIndex = velocity < 0 ? 
+                        Math.min(currentIndex + 1, maxIndex) : 
+                        Math.max(currentIndex - 1, 0);
+                } else {
+                    // If velocity is not enough, determine by position
+                    const currentOffset = -currentTranslateX / (100 / itemsPerView);
+                    targetIndex = Math.round(currentOffset);
+                }
+
+                goToSlide(targetIndex);
+            }
+
+            // Add event listeners
+            track.addEventListener('mousedown', onDragStart);
+            track.addEventListener('touchstart', onDragStart);
+            window.addEventListener('mousemove', onDragMove);
+            window.addEventListener('touchmove', onDragMove, { passive: false });
+            window.addEventListener('mouseup', onDragEnd);
+            window.addEventListener('touchend', onDragEnd);
+            
+            prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1));
+            nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1));
+
+            // Initialize position
+            goToSlide(0, false);
+
+            // Return cleanup function
+            return {
+                destroy: () => {
+                    track.removeEventListener('mousedown', onDragStart);
+                    track.removeEventListener('touchstart', onDragStart);
+                    window.removeEventListener('mousemove', onDragMove);
+                    window.removeEventListener('touchmove', onDragMove);
+                    window.removeEventListener('mouseup', onDragEnd);
+                    window.removeEventListener('touchend', onDragEnd);
+                }
+            };
+        }
+
+        // Initialize all carousels
+        document.addEventListener('DOMContentLoaded', () => {
+            const carousels = [
+                '.features.carousel',
+                '.technical-core.carousel',
+                '.why-abstrax.carousel',
+                '.roadmap.carousel'
+            ];
+
+            carousels.forEach(selector => {
+                initializeCarousel(selector);
+            });
+
+            // Handle window resize
+            let resizeTimeout;
+            window.addEventListener('resize', () => {
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(() => {
+                    location.reload();
+                }, 250);
+            });
+        });
+    </script>
+
+    <script>
+        // Initialize FAQ accordion functionality
+        document.querySelectorAll('.faq-item').forEach(item => {
+            item.addEventListener('click', () => {
+                // Close all other items
+                document.querySelectorAll('.faq-item').forEach(otherItem => {
+                    if (otherItem !== item && otherItem.classList.contains('active')) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+                
+                // Toggle current item
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+    <script>
+        // Mobile menu functionality
+        const menuButton = document.querySelector('.menu-button');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuButton.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-container')) {
+                navLinks.classList.remove('active');
+                menuButton.classList.remove('active');
+            }
+        });
+
+        // Close menu when clicking a link
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuButton.classList.remove('active');
+            });
+        });
+
+        // Hide/show navbar on scroll
+        let lastScroll = 0;
+        const nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll <= 0) {
+                nav.classList.remove('scroll-up');
+                return;
+            }
+
+            if (currentScroll > lastScroll && !nav.classList.contains('scroll-down')) {
+                // Scrolling down
+                nav.classList.remove('scroll-up');
+                nav.classList.add('scroll-down');
+            } else if (currentScroll < lastScroll && nav.classList.contains('scroll-down')) {
+                // Scrolling up
+                nav.classList.remove('scroll-down');
+                nav.classList.add('scroll-up');
+            }
+            lastScroll = currentScroll;
+        });
+    </script>
+</body>
+</html> 
